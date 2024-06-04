@@ -4,45 +4,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-*{
+* {
     box-sizing: border-box;
-    margin: 0;
+   
     padding: 0;
+  
 }
+
 /*///BODY///*/
-body{
-    width: 100vw;
+body {
+    margin: 0;
     background-color: black;
     color: white;
+    overflow-x: hidden;
 }
-p{
+
+p {
     font-family: "Fira Sans", sans-serif;
+    font-size: 1.1rem;
 }
-h1, h2, h3, h4{
+
+h1,
+h2,
+h3,
+h4 {
     font-family: "Roboto", sans-serif;
 }
 
 /*///HEADER///*/
-header{
-    width: 100%;
+header {
+   
     position: fixed;
     padding: 1rem;
 }
 
 /*///HERO///*/
-section.hero-wrapper{
+section.hero-wrapper {
     background-color: #39de6c;
-    width: 100%;
+    width: 100vw;
     height: 30rem;
     display: grid;
+    grid-template-columns: 1fr;
     justify-items: center;
     align-items: end;
 }
-.hero-wrapper h1{
+
+.hero-wrapper h1 {
     font-size: 8rem;
     color: black;
-    margin-top: auto;
+   
 }
-.hero-wrapper img{
+
+.hero-wrapper img {
     width: 15%;
+}
+
+/*///MAIN///*/
+main {
+    width: 100vw;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+
+main button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #e12846;
+    padding: 0.5rem 0.5rem;
+    font-weight: bold;
+}
+
+/*///SMALL CARD///*/
+section.cardS-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+}
+
+.card-small {
+    width: 100%;
+    max-height: 719px;
+}
+
+.card-small img {
+    width: 100%;
+}
+
+.card-small h3{
+  font-size: 2.5rem;
+}
+
+/*///BIG CARD///*/
+.cardB-wrapper {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    
+}
+.card-big img {
+    width: 100%;
+}
+footer{
+    width: 100%;
+}
+.footer-wrapper{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
