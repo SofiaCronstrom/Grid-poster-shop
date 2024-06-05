@@ -129,3 +129,40 @@ section.hero-wrapper {
     width: 100%;
     object-fit: cover;
 }
+
+/*///FOOTER///*/
+footer{
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+    display: grid;
+    justify-items: center;
+}
+.footer-wrapper{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3rem 0 6rem 0;
+}
+.footer-nav{
+    display: grid;
+
+}
+.footer-nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 0.9rem;
+}
+.footer-nav h4,
+.footer-social h4{
+    margin-bottom: 0.5rem;
+}
+
+/*///CHECKOUT PAGE///*/
+
+h2{
+    width: 70%;
+    align-self: self-start;
+    margin: 7rem 0 1rem 0;
+    font-size: 2.3rem;
+}
