@@ -166,3 +166,37 @@ h2{
     margin: 7rem 0 1rem 0;
     font-size: 2.3rem;
 }
+.card-big button.btn-checkO {
+    margin-top: 1rem;
+}
+/*///Checkut price///*/
+.checkout-price{
+    width: 70%;
+    display: grid;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 9rem;
+}
+.checkout-price span,
+button.cheokout{
+  padding: 1rem 1rem 1rem 0;
+}
+button.checkout{
+    font-size: 1.2rem;
+    justify-self: self-end;
+}
+.checkout-h7{
+    background-color: darkred;
+    display: grid;
+    grid-template-columns: 1fr 1fr 6rem;
+}
+.checkout-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 6rem;
+}
+.total{
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr 6rem;
+    border-top: 1px solid white;
+}
